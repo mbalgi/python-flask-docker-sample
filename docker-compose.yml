@@ -1,6 +1,6 @@
 version: '3'
 services:
-  python-flask-docker-sample:
-    image: mbalgi/python-flask-docker-sample:latest
+  python-flask-sample:
+    image: https://cloud.docker.com/u/mbalgi/repository/docker/mbalgi/python-flask-docker-sample:latest
     ports:
       - "9150:9150"
