@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "9150:9150"
+  redis:
+    image: "mbalgi/python-flask-docker-sample:latest"
