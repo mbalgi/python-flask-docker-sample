@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 services:
   python-flask-sample:
     image: mbalgi/python-flask-docker-sample:latest
