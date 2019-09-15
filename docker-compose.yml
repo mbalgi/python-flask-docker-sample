@@ -4,6 +4,3 @@ services:
     image: mbalgi/python-flask-docker-sample:latest
     ports:
       - "9150:9150"
-    deploy:
-      update_config:
-        order: stop-first
