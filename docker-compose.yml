@@ -1,6 +1,6 @@
 version: '3.7'
 services:
   python-flask-sample:
-    image: mbalgi/python-flask-docker-sample:latest
+    image: docker-registry.pegasus.ae/d100/test/python-flask-docker-sample:latest
     ports:
       - "9150:9150"
